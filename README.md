@@ -1,8 +1,8 @@
 # nfetch
 
-Another fetch utility which uses os-release file for showing info about system.
+Yet another fetch utility.
 
-# Output
+## Output
 ```
  enotty@xx
 -----------------
