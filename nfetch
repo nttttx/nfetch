@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+source /usr/lib/os-release
+
+cat <<EOF
+ $USER@$HOSTNAME
+ -------+-------------
+ Name   | $PRETTY_NAME
+ Kernel | $(uname -rs)
+ Shell  | $SHELL
+ Uptime | $(uptime -p) 
+EOF
